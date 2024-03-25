@@ -1,0 +1,11 @@
+{
+  "extends": "@hugodev/typescript-config/base.json",
+  "include": ["remix.env.d.ts", "**/*.ts", "**/*.tsx"],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./app/*"]
+    },
+    "jsx": "react"
+  }
+}
